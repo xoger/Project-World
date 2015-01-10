@@ -1,0 +1,160 @@
+<SerializableClass Type="XMLGameObjectCollection" Version="1">
+    <Collection Name="XMLGameObjects">
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">4786.81</Member>
+            <Member Name="posy">623.74</Member>
+            <Member Name="posz">347.528</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">30.5</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">sydney.md2</Member>
+            <Member Name="texture">sydney.bmp</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">1</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">0</Member>
+            <Member Name="posy">0</Member>
+            <Member Name="posz">1956.46</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">terrain.obj</Member>
+            <Member Name="texture">terraintex.png</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">50</Member>
+            <Member Name="type">static</Member>
+			<Collection Name="Conponants">
+				<Class Type="XMLObjectComponant" Version="1">
+					<Member Name="type">PlayMusic</Member>
+					<Collection Name="floats">
+						<Class Type="bFloat" Version="1">
+							<Member Name="Float">1</Member>
+						</Class>
+					</Collection>
+                    <Collection Name="ints"/>
+                    <Collection Name="strings">
+						<Class Type="bString" Version="1">
+							<Member Name="String">Carefree.mp3</Member>
+						</Class>
+                    </Collection>
+                    <Collection Name="bools"/>
+                </Class>
+            </Collection>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">3101.55</Member>
+            <Member Name="posy">532.929</Member>
+            <Member Name="posz">-604.347</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">waterbody.obj</Member>
+            <Member Name="texture">watertex.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">70</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">5880.68</Member>
+            <Member Name="posy">1066.26</Member>
+            <Member Name="posz">-888.975</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">model3343ds.3ds</Member>
+            <Member Name="texture">proba1.png</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">23</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">3793.17</Member>
+            <Member Name="posy">599.882</Member>
+            <Member Name="posz">1045.76</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">180</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">Medieval_House.obj</Member>
+            <Member Name="texture">Medieval_House_Diff.png</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">1</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">4951.66</Member>
+            <Member Name="posy">598.634</Member>
+            <Member Name="posz">532.101</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">180</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">house_obj.obj</Member>
+            <Member Name="texture">house_diffuse.tga</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">0.4</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">3115.38</Member>
+            <Member Name="posy">600.983</Member>
+            <Member Name="posz">1388.59</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">90</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">chapel_obj.obj</Member>
+            <Member Name="texture">chapel_diffuse.tga</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">0.4</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">1229.4</Member>
+            <Member Name="posy">602.428</Member>
+            <Member Name="posz">-1545.45</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">90</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">windmill.obj</Member>
+            <Member Name="texture">windmill_diffuse.tga</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">0.4</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">920.636</Member>
+            <Member Name="posy">602.428</Member>
+            <Member Name="posz">-764.699</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">90</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">LPBuildX13r_obj.obj</Member>
+            <Member Name="texture">LPBuildX13.jpg</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">0.4</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-5589.72</Member>
+            <Member Name="posy">594.534</Member>
+            <Member Name="posz">777.229</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">90</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">klcc_lores.obj</Member>
+            <Member Name="texture">klccbake.jpg</Member>
+            <Member Name="transparent">false</Member>
+            <Member Name="scale">50</Member>
+            <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+    </Collection>
+</SerializableClass>

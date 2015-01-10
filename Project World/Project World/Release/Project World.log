@@ -1,0 +1,17 @@
+﻿Build started 02/01/2015 16:26:45.
+     1>Project "C:\Users\xoger\Desktop\Project World\Project World\Project World.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameObject.cpp main.cpp MapLoader.cpp tinyxml2.cpp XMLSerialization.cpp
+         GameObject.cpp
+     1>GameObject.cpp(1): fatal error C1083: Cannot open include file: 'GameObject.h': No such file or directory
+         main.cpp
+     1>main.cpp(1): fatal error C1083: Cannot open include file: 'irrlicht.h': No such file or directory
+         MapLoader.cpp
+     1>MapLoader.cpp(1): fatal error C1083: Cannot open include file: 'MapLoader.h': No such file or directory
+         tinyxml2.cpp
+         XMLSerialization.cpp
+     1>Done Building Project "C:\Users\xoger\Desktop\Project World\Project World\Project World.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.01

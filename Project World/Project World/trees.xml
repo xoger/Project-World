@@ -1,0 +1,28 @@
+<SerializableClass Type="XMLTreeCollection" Version="1">
+    <Collection Name="XMLTrees">
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="scale">0.5</Member>
+            <Member Name="texture">trees/EA02a_bill.png</Member>
+        </Class>
+		<Class Type="XMLGameObject" Version="2">
+			<Member Name="scale">0.5</Member>
+			<Member Name="texture">trees/EA02m_bill.png</Member>
+		</Class>
+		<Class Type="XMLGameObject" Version="2">
+			<Member Name="scale">0.5</Member>
+			<Member Name="texture">trees/EA02y_bill.png</Member>
+		</Class>
+		<Class Type="XMLGameObject" Version="2">
+			<Member Name="scale">0.5</Member>
+			<Member Name="texture">trees/CL20a_bill.png</Member>
+		</Class>
+		<Class Type="XMLGameObject" Version="2">
+			<Member Name="scale">0.5</Member>
+			<Member Name="texture">trees/CL20m_bill.png</Member>
+		</Class>
+		<Class Type="XMLGameObject" Version="2">
+			<Member Name="scale">0.5</Member>
+			<Member Name="texture">trees/CL20y_bill.png</Member>
+		</Class>
+    </Collection>
+</SerializableClass>
