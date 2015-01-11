@@ -31,7 +31,7 @@
 					<Member Name="type">PlayMusic</Member>
 					<Collection Name="floats">
 						<Class Type="bFloat" Version="1">
-							<Member Name="Float">1</Member>
+							<Member Name="Float">0.8</Member>
 						</Class>
 					</Collection>
                     <Collection Name="ints"/>

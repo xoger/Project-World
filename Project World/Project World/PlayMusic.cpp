@@ -7,11 +7,13 @@ void PlayMusic::init()
 	RegisterVar(&track);
 	RegisterVar(&volume);
 
-	sound = Globals::soundengine->play2D(track.c_str(), true, false);
+	sound = Globals::soundengine->play2D(track.c_str(), true, true);
+	sound->setIsPaused(false);
 	sound->setVolume(volume);
+	
 }
 void PlayMusic::Update(GameObject *Object)
 {
-	
+
 	
 }
