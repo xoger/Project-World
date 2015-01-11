@@ -60,8 +60,7 @@ public:
 
 		camera = scnmgr->addCameraSceneNodeFPS(NULL,100,1,-1,keyMap,8);
 		camera->setFarValue(100000);
-		camera->setPosition(vector3df(0, 0, 0));
-		camera->setInputReceiverEnabled(false);
+		camera->setPosition(vector3df(0, 1000, 0));
 		
 		maploader = new MapLoader();
 		objects = maploader->Start(scnmgr, driver);
@@ -87,7 +86,7 @@ public:
 		static int frame = 1;
 		if (frame == 200)
 		{
-			//cout << driver->getFPS() << endl;
+			cout << driver->getFPS() << endl;
 			frame = 0;
 		}
 		frame++;
