@@ -26,19 +26,19 @@
             <Member Name="transparent">false</Member>
             <Member Name="scale">50</Member>
             <Member Name="type">static</Member>
-			<Collection Name="Conponants">
-				<Class Type="XMLObjectComponant" Version="1">
-					<Member Name="type">PlayMusic</Member>
-					<Collection Name="floats">
-						<Class Type="bFloat" Version="1">
-							<Member Name="Float">0.8</Member>
-						</Class>
-					</Collection>
+            <Collection Name="Conponants">
+                <Class Type="XMLObjectComponant" Version="1">
+                    <Member Name="type">PlayMusic</Member>
+                    <Collection Name="floats">
+                        <Class Type="bFloat" Version="1">
+                            <Member Name="Float">0.8</Member>
+                        </Class>
+                    </Collection>
                     <Collection Name="ints"/>
                     <Collection Name="strings">
-						<Class Type="bString" Version="1">
-							<Member Name="String">Carefree.mp3</Member>
-						</Class>
+                        <Class Type="bString" Version="1">
+                            <Member Name="String">Carefree.mp3</Member>
+                        </Class>
                     </Collection>
                     <Collection Name="bools"/>
                 </Class>
@@ -75,7 +75,7 @@
         <Class Type="XMLGameObject" Version="2">
             <Member Name="posx">3793.17</Member>
             <Member Name="posy">599.882</Member>
-            <Member Name="posz">1045.76</Member>
+            <Member Name="posz">1311.8</Member>
             <Member Name="rotx">0</Member>
             <Member Name="roty">180</Member>
             <Member Name="rotz">0</Member>
@@ -103,7 +103,7 @@
         <Class Type="XMLGameObject" Version="2">
             <Member Name="posx">3115.38</Member>
             <Member Name="posy">600.983</Member>
-            <Member Name="posz">1388.59</Member>
+            <Member Name="posz">1770.33</Member>
             <Member Name="rotx">0</Member>
             <Member Name="roty">90</Member>
             <Member Name="rotz">0</Member>
@@ -154,6 +154,524 @@
             <Member Name="transparent">false</Member>
             <Member Name="scale">50</Member>
             <Member Name="type">static</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">4573.7</Member>
+            <Member Name="posy">794.599</Member>
+            <Member Name="posz">2070.22</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">4024.28</Member>
+            <Member Name="posy">837.597</Member>
+            <Member Name="posz">2822.77</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">3281.78</Member>
+            <Member Name="posy">780.313</Member>
+            <Member Name="posz">4281.15</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">2688.41</Member>
+            <Member Name="posy">861.897</Member>
+            <Member Name="posz">2945.79</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">2150.24</Member>
+            <Member Name="posy">800.138</Member>
+            <Member Name="posz">1936.45</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">1455.62</Member>
+            <Member Name="posy">932.07</Member>
+            <Member Name="posz">3204.26</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">1166.23</Member>
+            <Member Name="posy">845.354</Member>
+            <Member Name="posz">2269.08</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">1453.09</Member>
+            <Member Name="posy">799.947</Member>
+            <Member Name="posz">1376.35</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">1100.66</Member>
+            <Member Name="posy">800.307</Member>
+            <Member Name="posz">709.303</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">389.319</Member>
+            <Member Name="posy">825.377</Member>
+            <Member Name="posz">1351.06</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">320.286</Member>
+            <Member Name="posy">830.679</Member>
+            <Member Name="posz">259.203</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">237.305</Member>
+            <Member Name="posy">784.457</Member>
+            <Member Name="posz">-536.077</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">345.221</Member>
+            <Member Name="posy">831.878</Member>
+            <Member Name="posz">-1112.99</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-829.217</Member>
+            <Member Name="posy">883.782</Member>
+            <Member Name="posz">771.297</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-1116.24</Member>
+            <Member Name="posy">883.82</Member>
+            <Member Name="posz">2326.67</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-548.952</Member>
+            <Member Name="posy">866.435</Member>
+            <Member Name="posz">924.894</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-1004.96</Member>
+            <Member Name="posy">862.435</Member>
+            <Member Name="posz">-208.314</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-734.519</Member>
+            <Member Name="posy">882.995</Member>
+            <Member Name="posz">-1625.02</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-778.918</Member>
+            <Member Name="posy">965.416</Member>
+            <Member Name="posz">-2406.17</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">165.557</Member>
+            <Member Name="posy">851.32</Member>
+            <Member Name="posz">-2942.76</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">1229.34</Member>
+            <Member Name="posy">799.134</Member>
+            <Member Name="posz">-2511.24</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">2323.2</Member>
+            <Member Name="posy">800.49</Member>
+            <Member Name="posz">-2467.62</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">2909.59</Member>
+            <Member Name="posy">799.098</Member>
+            <Member Name="posz">-2795.11</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">3982.42</Member>
+            <Member Name="posy">833.387</Member>
+            <Member Name="posz">-2671.81</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">4431.2</Member>
+            <Member Name="posy">872.54</Member>
+            <Member Name="posz">-2077.59</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">5865.47</Member>
+            <Member Name="posy">799.117</Member>
+            <Member Name="posz">504.945</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">5512.62</Member>
+            <Member Name="posy">797.865</Member>
+            <Member Name="posz">-570.163</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">5415.89</Member>
+            <Member Name="posy">795.734</Member>
+            <Member Name="posz">-1409.92</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">3962.6</Member>
+            <Member Name="posy">764.653</Member>
+            <Member Name="posz">-2212.78</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">5518.49</Member>
+            <Member Name="posy">799.699</Member>
+            <Member Name="posz">1744.24</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">51.6211</Member>
+            <Member Name="posy">892.228</Member>
+            <Member Name="posz">4874.39</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">129</Member>
+            <Member Name="posy">937.823</Member>
+            <Member Name="posz">2934.93</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">51.4028</Member>
+            <Member Name="posy">876.921</Member>
+            <Member Name="posz">-1725.04</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">352.322</Member>
+            <Member Name="posy">831.891</Member>
+            <Member Name="posz">-2303.87</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/EA02a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">-206.298</Member>
+            <Member Name="posy">883.86</Member>
+            <Member Name="posz">-2407.44</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20a_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">5105.64</Member>
+            <Member Name="posy">799.678</Member>
+            <Member Name="posz">157.122</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20m_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
+            <Collection Name="Conponants"/>
+        </Class>
+        <Class Type="XMLGameObject" Version="2">
+            <Member Name="posx">3882.63</Member>
+            <Member Name="posy">800.478</Member>
+            <Member Name="posz">1796.16</Member>
+            <Member Name="rotx">0</Member>
+            <Member Name="roty">0</Member>
+            <Member Name="rotz">0</Member>
+            <Member Name="model">NULL</Member>
+            <Member Name="texture">trees/CL20y_bill.png</Member>
+            <Member Name="transparent">true</Member>
+            <Member Name="scale">0.5</Member>
+            <Member Name="type">billboard</Member>
             <Collection Name="Conponants"/>
         </Class>
     </Collection>

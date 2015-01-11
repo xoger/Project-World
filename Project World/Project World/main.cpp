@@ -17,7 +17,7 @@ using namespace scene;
 using namespace std;
 
 #ifdef _IRR_WINDOWS_
-	//#pragma comment(linker, "/subsystem:windows /ENTRY:mainCRTStartup")
+	#pragma comment(linker, "/subsystem:windows /ENTRY:mainCRTStartup")
 #endif
 
 class Game
@@ -60,7 +60,7 @@ public:
 
 		camera = scnmgr->addCameraSceneNodeFPS(NULL,100,1,-1,keyMap,8);
 		camera->setFarValue(100000);
-		camera->setPosition(vector3df(0, 0, 0));
+		camera->setPosition(vector3df(0, 1000, 0));
 		camera->setInputReceiverEnabled(false);
 		
 		maploader = new MapLoader();
@@ -84,13 +84,13 @@ public:
 		const f32 DeltaTime = (f32)(thisframe - lastframe);
 		lastframe = thisframe;
 		//--Write FPS--//
-		static int frame = 1;
+		/*static int frame = 1;
 		if (frame == 200)
 		{
-			//cout << driver->getFPS() << endl;
+			cout << driver->getFPS() << endl;
 			frame = 0;
 		}
-		frame++;
+		frame++;*/
 		receiver.Update();
 		mover->Update(camera);
 		if (receiver.MouseState.RightButtonDown == true){

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿Build started 11/01/2015 12:02:34.
-=======
-﻿Build started 11/01/2015 11:25:26.
->>>>>>> parent of 60aa220... Added trees
+﻿Build started 11/01/2015 12:13:18.
      1>Project "C:\Users\xoger\Desktop\projects\Project-World\Project World\Project World\Project World.vcxproj" on node 2 (Build target(s)).
      1>Link:
          Project World.vcxproj -> C:\Users\xoger\Desktop\projects\Project-World\Project World\Debug\Project World.exe
@@ -10,4 +6,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.06
+Time Elapsed 00:00:00.07
